@@ -47,14 +47,14 @@ namespace Projekt1
             Kontakte = new ObservableCollection<Kontakt>();
             GefilterteKontakte = new ObservableCollection<Kontakt>();
 
-            // Beispieldaten hinzufügen (nur im RAM, gehen beim Schließen verloren)
+            // Beispieldaten hinzufügen (nur im RAM, gehen beim Schliessen verloren)
             Kontakte.Add(new Kontakt
             {
                 Anrede = "Herr",
                 Vorname = "Max",
                 Nachname = "Mustermann",
                 Email = "max@example.com",
-                Strasse = "Musterstraße 123",
+                Strasse = "Musterstrasse 123",
                 PLZ = "8000",
                 Ort = "Zürich",
                 Land = "Schweiz",
@@ -563,4 +563,5 @@ namespace Projekt1
             return $"{Anrede} {Vorname} {Nachname}";
         }
     }
+
 }
